@@ -1,0 +1,19 @@
+@import 'fonts';
+
+$main_font: 'ProximaNova', sans-serif;
+$main_font_color: #56534c;
+$brown_color: #a47d5e;
+$brown_light_color: #c8a593;
+
+@import 'normalize';
+@import 'layout';
+@import 'elements';
+
+@import 'header';
+
+/* Layout */
+.ba-container {
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: 1280px;
+}
