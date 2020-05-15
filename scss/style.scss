@@ -10,10 +10,28 @@ $brown_light_color: #c8a593;
 @import 'elements';
 
 @import 'header';
+@import 'intro';
+
+body{
+  font: 400 16px/1.9 $main_font;
+  color: $main_font_color;
+}
 
 /* Layout */
 .ba-container {
   padding-left: 10px;
   padding-right: 10px;
   max-width: 1280px;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: Alegreya, sans-serif;
+  font-weight: 400;
+  margin: 0 0 70px;
+  color: #fff;
+  padding: 0;
+}
+
+a{
+ text-decoration: none;
 }
